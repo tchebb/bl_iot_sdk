@@ -13,7 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - run: make
+    - run: make -j3
       working-directory: customer_app
       env:
         BL60X_SDK_PATH: ${{ github.workspace }}
@@ -30,7 +30,7 @@ jobs:
 
     - uses: actions/checkout@v2
 
-    - run: make
+    - run: make -j3
       shell: msys2 {0}
       working-directory: customer_app
       env:
