@@ -187,7 +187,12 @@ all:
 ifeq ("$(OS)","Windows_NT")
 else
 ifeq ("$(CONFIG_CHIP_NAME)", "BL602")
-	@cd $(BL60X_SDK_PATH)/image_conf && python3 -m pip install -r requirements.txt && python3 flash_build.py $(PROJECT_NAME) $(CONFIG_CHIP_NAME)
+	# "pip install" may need to build native code, so make sure it doesn't
+	# use the cross-compilation environment. The specific list of variables
+	# unset is taken from the intersection of what we export and what
+	# Python's distutils uses (see CPython's Lib/distutils/sysconfig.py).
+	@env -u CC -u CXX -u AR -u CFLAGS -u CPPFLAGS python3 -m pip install -r $(BL60X_SDK_PATH)/image_conf/requirements.txt
+	@cd $(BL60X_SDK_PATH)/image_conf && python3 flash_build.py $(PROJECT_NAME) $(CONFIG_CHIP_NAME)
 endif
 endif
 	@echo "Building Finish. To flash build output."
