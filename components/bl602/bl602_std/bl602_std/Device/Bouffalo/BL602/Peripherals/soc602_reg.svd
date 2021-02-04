@@ -10272,7 +10272,7 @@
 				<access>read-write</access>
 				<addressBlock>
 					<offset>0</offset>
-					<size>0x1000</size>
+					<size>0x80</size>
 					<usage>registers</usage>
 				</addressBlock>
 				<registers>
@@ -10855,20 +10855,20 @@
 			<peripheral>
 				<name>ef_data_1</name>
 				<description>ef_data_1.</description>
-				<baseAddress>0x40007000</baseAddress>
+				<baseAddress>0x40007080</baseAddress>
 				<groupName>ef_data_1</groupName>
 				<size>32</size>
 				<access>read-write</access>
 				<addressBlock>
 					<offset>0</offset>
-					<size>0x1000</size>
+					<size>0x80</size>
 					<usage>registers</usage>
 				</addressBlock>
 				<registers>
 					<register>
 						<name>reg_key_slot_6_w0</name>
 						<description>reg_key_slot_6_w0.</description>
-						<addressOffset>0x80</addressOffset>
+						<addressOffset>0x0</addressOffset>
 						<fields>
 							<field>
 								<name>reg_key_slot_6_w0</name>
@@ -10880,7 +10880,7 @@
 					<register>
 						<name>reg_key_slot_6_w1</name>
 						<description>reg_key_slot_6_w1.</description>
-						<addressOffset>0x84</addressOffset>
+						<addressOffset>0x4</addressOffset>
 						<fields>
 							<field>
 								<name>reg_key_slot_6_w1</name>
@@ -10892,7 +10892,7 @@
 					<register>
 						<name>reg_key_slot_6_w2</name>
 						<description>reg_key_slot_6_w2.</description>
-						<addressOffset>0x88</addressOffset>
+						<addressOffset>0x8</addressOffset>
 						<fields>
 							<field>
 								<name>reg_key_slot_6_w2</name>
@@ -10904,7 +10904,7 @@
 					<register>
 						<name>reg_key_slot_6_w3</name>
 						<description>reg_key_slot_6_w3.</description>
-						<addressOffset>0x8C</addressOffset>
+						<addressOffset>0xC</addressOffset>
 						<fields>
 							<field>
 								<name>reg_key_slot_6_w3</name>
@@ -10916,7 +10916,7 @@
 					<register>
 						<name>reg_key_slot_7_w0</name>
 						<description>reg_key_slot_7_w0.</description>
-						<addressOffset>0x90</addressOffset>
+						<addressOffset>0x10</addressOffset>
 						<fields>
 							<field>
 								<name>reg_key_slot_7_w0</name>
@@ -10928,7 +10928,7 @@
 					<register>
 						<name>reg_key_slot_7_w1</name>
 						<description>reg_key_slot_7_w1.</description>
-						<addressOffset>0x94</addressOffset>
+						<addressOffset>0x14</addressOffset>
 						<fields>
 							<field>
 								<name>reg_key_slot_7_w1</name>
@@ -10940,7 +10940,7 @@
 					<register>
 						<name>reg_key_slot_7_w2</name>
 						<description>reg_key_slot_7_w2.</description>
-						<addressOffset>0x98</addressOffset>
+						<addressOffset>0x18</addressOffset>
 						<fields>
 							<field>
 								<name>reg_key_slot_7_w2</name>
@@ -10952,7 +10952,7 @@
 					<register>
 						<name>reg_key_slot_7_w3</name>
 						<description>reg_key_slot_7_w3.</description>
-						<addressOffset>0x9C</addressOffset>
+						<addressOffset>0x1C</addressOffset>
 						<fields>
 							<field>
 								<name>reg_key_slot_7_w3</name>
@@ -10964,7 +10964,7 @@
 					<register>
 						<name>reg_key_slot_8_w0</name>
 						<description>reg_key_slot_8_w0.</description>
-						<addressOffset>0xA0</addressOffset>
+						<addressOffset>0x20</addressOffset>
 						<fields>
 							<field>
 								<name>reg_key_slot_8_w0</name>
@@ -10976,7 +10976,7 @@
 					<register>
 						<name>reg_key_slot_8_w1</name>
 						<description>reg_key_slot_8_w1.</description>
-						<addressOffset>0xA4</addressOffset>
+						<addressOffset>0x24</addressOffset>
 						<fields>
 							<field>
 								<name>reg_key_slot_8_w1</name>
@@ -10988,7 +10988,7 @@
 					<register>
 						<name>reg_key_slot_8_w2</name>
 						<description>reg_key_slot_8_w2.</description>
-						<addressOffset>0xA8</addressOffset>
+						<addressOffset>0x28</addressOffset>
 						<fields>
 							<field>
 								<name>reg_key_slot_8_w2</name>
@@ -11000,7 +11000,7 @@
 					<register>
 						<name>reg_key_slot_8_w3</name>
 						<description>reg_key_slot_8_w3.</description>
-						<addressOffset>0xAC</addressOffset>
+						<addressOffset>0x2C</addressOffset>
 						<fields>
 							<field>
 								<name>reg_key_slot_8_w3</name>
@@ -11012,7 +11012,7 @@
 					<register>
 						<name>reg_key_slot_9_w0</name>
 						<description>reg_key_slot_9_w0.</description>
-						<addressOffset>0xB0</addressOffset>
+						<addressOffset>0x30</addressOffset>
 						<fields>
 							<field>
 								<name>reg_key_slot_9_w0</name>
@@ -11024,7 +11024,7 @@
 					<register>
 						<name>reg_key_slot_9_w1</name>
 						<description>reg_key_slot_9_w1.</description>
-						<addressOffset>0xB4</addressOffset>
+						<addressOffset>0x34</addressOffset>
 						<fields>
 							<field>
 								<name>reg_key_slot_9_w1</name>
@@ -11036,7 +11036,7 @@
 					<register>
 						<name>reg_key_slot_9_w2</name>
 						<description>reg_key_slot_9_w2.</description>
-						<addressOffset>0xB8</addressOffset>
+						<addressOffset>0x38</addressOffset>
 						<fields>
 							<field>
 								<name>reg_key_slot_9_w2</name>
@@ -11048,7 +11048,7 @@
 					<register>
 						<name>reg_key_slot_9_w3</name>
 						<description>reg_key_slot_9_w3.</description>
-						<addressOffset>0xBC</addressOffset>
+						<addressOffset>0x3C</addressOffset>
 						<fields>
 							<field>
 								<name>reg_key_slot_9_w3</name>
@@ -11060,55 +11060,55 @@
 					<register>
 						<name>reg_key_slot_10_w0</name>
 						<description>reg_key_slot_10_w0.</description>
-						<addressOffset>0xC0</addressOffset>
+						<addressOffset>0x40</addressOffset>
 						<fields/>
 					</register>
 					<register>
 						<name>reg_key_slot_10_w1</name>
 						<description>reg_key_slot_10_w1.</description>
-						<addressOffset>0xC4</addressOffset>
+						<addressOffset>0x44</addressOffset>
 						<fields/>
 					</register>
 					<register>
 						<name>reg_key_slot_10_w2</name>
 						<description>reg_key_slot_10_w2.</description>
-						<addressOffset>0xC8</addressOffset>
+						<addressOffset>0x48</addressOffset>
 						<fields/>
 					</register>
 					<register>
 						<name>reg_key_slot_10_w3</name>
 						<description>reg_key_slot_10_w3.</description>
-						<addressOffset>0xCC</addressOffset>
+						<addressOffset>0x4C</addressOffset>
 						<fields/>
 					</register>
 					<register>
 						<name>reg_key_slot_11_w0</name>
 						<description>reg_key_slot_11_w0.</description>
-						<addressOffset>0xD0</addressOffset>
+						<addressOffset>0x50</addressOffset>
 						<fields/>
 					</register>
 					<register>
 						<name>reg_key_slot_11_w1</name>
 						<description>reg_key_slot_11_w1.</description>
-						<addressOffset>0xD4</addressOffset>
+						<addressOffset>0x54</addressOffset>
 						<fields/>
 					</register>
 					<register>
 						<name>reg_key_slot_11_w2</name>
 						<description>reg_key_slot_11_w2.</description>
-						<addressOffset>0xD8</addressOffset>
+						<addressOffset>0x58</addressOffset>
 						<fields/>
 					</register>
 					<register>
 						<name>reg_key_slot_11_w3</name>
 						<description>reg_key_slot_11_w3.</description>
-						<addressOffset>0xDC</addressOffset>
+						<addressOffset>0x5C</addressOffset>
 						<fields/>
 					</register>
 					<register>
 						<name>reg_data_1_lock</name>
 						<description>reg_data_1_lock.</description>
-						<addressOffset>0xE0</addressOffset>
+						<addressOffset>0x60</addressOffset>
 						<fields>
 							<field>
 								<name>rd_lock_key_slot_9</name>
@@ -11167,20 +11167,20 @@
 			<peripheral>
 				<name>ef_ctrl</name>
 				<description>ef_ctrl.</description>
-				<baseAddress>0x40007000</baseAddress>
+				<baseAddress>0x40007800</baseAddress>
 				<groupName>ef_ctrl</groupName>
 				<size>32</size>
 				<access>read-write</access>
 				<addressBlock>
 					<offset>0</offset>
-					<size>0x1000</size>
+					<size>0x800</size>
 					<usage>registers</usage>
 				</addressBlock>
 				<registers>
 					<register>
 						<name>ef_if_ctrl_0</name>
 						<description>ef_if_ctrl_0.</description>
-						<addressOffset>0x800</addressOffset>
+						<addressOffset>0x0</addressOffset>
 						<fields>
 							<field>
 								<name>ef_if_prot_code_cyc</name>
@@ -11272,7 +11272,7 @@
 					<register>
 						<name>ef_if_cyc_0</name>
 						<description>ef_if_cyc_0.</description>
-						<addressOffset>0x804</addressOffset>
+						<addressOffset>0x4</addressOffset>
 						<fields>
 							<field>
 								<name>ef_if_cyc_pd_cs_s</name>
@@ -11304,7 +11304,7 @@
 					<register>
 						<name>ef_if_cyc_1</name>
 						<description>ef_if_cyc_1.</description>
-						<addressOffset>0x808</addressOffset>
+						<addressOffset>0x8</addressOffset>
 						<fields>
 							<field>
 								<name>ef_if_cyc_pd_cs_h</name>
@@ -11336,7 +11336,7 @@
 					<register>
 						<name>ef_if_0_manual</name>
 						<description>ef_if_0_manual.</description>
-						<addressOffset>0x80C</addressOffset>
+						<addressOffset>0xC</addressOffset>
 						<fields>
 							<field>
 								<name>ef_if_prot_code_manual</name>
@@ -11388,7 +11388,7 @@
 					<register>
 						<name>ef_if_0_status</name>
 						<description>ef_if_0_status.</description>
-						<addressOffset>0x810</addressOffset>
+						<addressOffset>0x10</addressOffset>
 						<fields>
 							<field>
 								<name>ef_if_0_status</name>
@@ -11400,7 +11400,7 @@
 					<register>
 						<name>ef_if_cfg_0</name>
 						<description>ef_if_cfg_0.</description>
-						<addressOffset>0x814</addressOffset>
+						<addressOffset>0x14</addressOffset>
 						<fields>
 							<field>
 								<name>ef_if_dbg_mode</name>
@@ -11507,7 +11507,7 @@
 					<register>
 						<name>ef_sw_cfg_0</name>
 						<description>ef_sw_cfg_0.</description>
-						<addressOffset>0x818</addressOffset>
+						<addressOffset>0x18</addressOffset>
 						<fields>
 							<field>
 								<name>ef_sw_dbg_mode</name>
@@ -11609,7 +11609,7 @@
 					<register>
 						<name>ef_reserved</name>
 						<description>ef_reserved.</description>
-						<addressOffset>0x81C</addressOffset>
+						<addressOffset>0x1C</addressOffset>
 						<fields>
 							<field>
 								<name>ef_reserved</name>
@@ -11621,7 +11621,7 @@
 					<register>
 						<name>ef_if_ana_trim_0</name>
 						<description>ef_if_ana_trim_0.</description>
-						<addressOffset>0x820</addressOffset>
+						<addressOffset>0x20</addressOffset>
 						<fields>
 							<field>
 								<name>ef_if_ana_trim_0</name>
@@ -11633,7 +11633,7 @@
 					<register>
 						<name>ef_if_sw_usage_0</name>
 						<description>ef_if_sw_usage_0.</description>
-						<addressOffset>0x824</addressOffset>
+						<addressOffset>0x24</addressOffset>
 						<fields>
 							<field>
 								<name>ef_if_sw_usage_0</name>
@@ -11645,7 +11645,7 @@
 					<register>
 						<name>ef_crc_ctrl_0</name>
 						<description>ef_crc_ctrl_0.</description>
-						<addressOffset>0xA00</addressOffset>
+						<addressOffset>0x200</addressOffset>
 						<fields>
 							<field>
 								<name>ef_crc_slp_n</name>
@@ -11717,7 +11717,7 @@
 					<register>
 						<name>ef_crc_ctrl_1</name>
 						<description>ef_crc_ctrl_1.</description>
-						<addressOffset>0xA04</addressOffset>
+						<addressOffset>0x204</addressOffset>
 						<fields>
 							<field>
 								<name>ef_crc_data_0_en</name>
@@ -11729,7 +11729,7 @@
 					<register>
 						<name>ef_crc_ctrl_2</name>
 						<description>ef_crc_ctrl_2.</description>
-						<addressOffset>0xA08</addressOffset>
+						<addressOffset>0x208</addressOffset>
 						<fields>
 							<field>
 								<name>ef_crc_data_1_en</name>
@@ -11741,7 +11741,7 @@
 					<register>
 						<name>ef_crc_ctrl_3</name>
 						<description>ef_crc_ctrl_3.</description>
-						<addressOffset>0xA0C</addressOffset>
+						<addressOffset>0x20C</addressOffset>
 						<fields>
 							<field>
 								<name>ef_crc_iv</name>
@@ -11753,7 +11753,7 @@
 					<register>
 						<name>ef_crc_ctrl_4</name>
 						<description>ef_crc_ctrl_4.</description>
-						<addressOffset>0xA10</addressOffset>
+						<addressOffset>0x210</addressOffset>
 						<fields>
 							<field>
 								<name>ef_crc_golden</name>
@@ -11765,7 +11765,7 @@
 					<register>
 						<name>ef_crc_ctrl_5</name>
 						<description>ef_crc_ctrl_5.</description>
-						<addressOffset>0xA14</addressOffset>
+						<addressOffset>0x214</addressOffset>
 						<fields>
 							<field>
 								<name>ef_crc_dout</name>
